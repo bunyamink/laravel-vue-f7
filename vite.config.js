@@ -8,6 +8,7 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/js/app.js',
+                'node_modules/framework7/framework7-bundle.min.css'
             ],
             refresh: true,
         }),
