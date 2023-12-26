@@ -13,8 +13,8 @@ import Framework7Vue from 'framework7-vue';
 //import Popover from 'framework7/components/popover';
 //import Range from 'framework7/components/range';
 //import Toggle from 'framework7/components/toggle';
-import Popup from 'framework7/components/popup';
-import Panel from 'framework7/components/panel';
+//import Popup from 'framework7/components/popup';
+//import Panel from 'framework7/components/panel';
 //import Tooltip from 'framework7/components/tooltip';
 
 // Import F7 Bundle
@@ -24,11 +24,10 @@ import Panel from 'framework7/components/panel';
 //import Framework7Vue, { registerComponents } from 'framework7-vue/bundle'
 
 Framework7.use(Framework7Vue);
-Framework7.use([
+/*Framework7.use([
     Popup,
-    Panel,
-    Popover
-]);
+    Panel
+]);*/
 
 // Import Main App component
 import App from './components/app.vue';
