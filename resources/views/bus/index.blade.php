@@ -1,1 +1,5 @@
-@extends('index')
+@extends('layouts.index')
+
+@section('content')
+    
+@endsection

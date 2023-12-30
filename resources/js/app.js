@@ -33,7 +33,9 @@ Framework7.use(Framework7Vue);
 import App from './components/app.vue';
 
 // Init App
-const app = createApp(App);
+const app = createApp({});
+
+app.component('App', App);
 
 // Register all Framework7 Vue components
 // registerComponents(app);
