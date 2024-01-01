@@ -31,11 +31,21 @@ Framework7.use(Framework7Vue);
 
 // Import Main App component
 import App from './components/app.vue';
+import Navbar from './components/Navbar.vue';
+import MyPopup from './components/MyPopup.vue';
+import MyLeftPanel from './components/MyLeftPanel.vue';
+import Homepage from './components/Homepage.vue';
+import Otobuspage from './components/Otobuspage.vue';
 
 // Init App
 const app = createApp({});
 
 app.component('App', App);
+app.component('Navbar', Navbar);
+app.component('MyPopup', MyPopup);
+app.component('MyLeftPanel', MyLeftPanel);
+app.component('Homepage', Homepage);
+app.component('Otobuspage', Otobuspage);
 
 // Register all Framework7 Vue components
 // registerComponents(app);

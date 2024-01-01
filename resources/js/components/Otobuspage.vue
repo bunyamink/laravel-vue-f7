@@ -3,13 +3,13 @@
     <template v-slot:pagecontent>
       <!-- content for the header slot -->
       <div style="text-align: center;">
-        <f7-block-title large>Ana Sayfa</f7-block-title>
+        <f7-block-title large>Otobus Bileti</f7-block-title>
         <f7-block>
-          <p>En Ucuz Uçak Biletleri</p>
           <p>En Ucuz Otobüs Biletleri</p>
         </f7-block>
+
       </div>
-      <f7-button href="/otobus-bileti" external>Otobus Bileti</f7-button>
+      <f7-button href="/" external>Anasayfa</f7-button>
 
       <!-- Buttons to open panels -->
       <f7-button panel-open="left">Open Left Panel</f7-button>
@@ -21,11 +21,11 @@
 
 <script>
 
-import { f7BlockTitle, f7Block, f7Button } from 'framework7-vue';
+import { f7BlockTitle, f7Block, f7Button, f7List, f7ListInput } from 'framework7-vue';
 
 export default {
   components: {
-    f7BlockTitle, f7Block, f7Button
+    f7BlockTitle, f7Block, f7Button, f7List, f7ListInput
   },
   data(){
     return {
